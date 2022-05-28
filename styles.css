@@ -120,12 +120,6 @@ p {
 }
 
 /* Title Images */
-.title-img {
-  image-rendering: auto;
-  background-color: #f9f7f7;
-  border-radius: 35px;
-  margin: 20px 0;
-}
 
 .title-keyboard {
   margin: 10% 10% 5% 10%;
@@ -439,6 +433,15 @@ div:nth-child(5) {
   }
 }
 
+@media (max-width: 992px) {
+  .title-img {
+    image-rendering: auto;
+    background-color: #f9f7f7;
+    border-radius: 35px;
+    margin: 20px 0;
+  }
+}
+
 /* For Medium Devices and Up */
 @media (min-width: 993px) {
   p {
@@ -495,7 +498,6 @@ div:nth-child(5) {
 
   .title-img {
     margin: 0;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
